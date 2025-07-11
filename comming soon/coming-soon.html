@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon - SanjeevaniHomoeo.in</title>
+  <style>
+    body {
+      background-color: #f5f0e6;
+      font-family: 'Segoe UI', sans-serif;
+      color: #4b2e1e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      flex-direction: column;
+      text-align: center;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    h1 {
+      font-size: 7vw;
+      margin: 0.3em 0;
+    }
+
+    p {
+      font-size: 3.5vw;
+      margin-bottom: 1.2em;
+    }
+
+    .domain {
+      font-size: 4.5vw;
+      font-weight: bold;
+    }
+
+    .line {
+      width: 60%;
+      height: 2px;
+      background: linear-gradient(to right, #a66b49, #4b2e1e, #a66b49);
+      margin: 20px auto;
+      box-shadow: 0 0 10px #a66b49;
+      border-radius: 2px;
+    }
+
+    .caduceus {
+      font-size: 3.5em;
+      margin-top: 30px;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 1em;
+      color: #555;
+    }
+
+    .footer span {
+      font-weight: bold;
+      color: #3a1e0c;
+    }
+
+    .notify-box {
+      margin-top: 25px;
+    }
+
+    input[type="email"] {
+      padding: 12px;
+      font-size: 1em;
+      border: 1px solid #a66b49;
+      border-radius: 5px;
+      width: 220px;
+      max-width: 80%;
+    }
+
+    button {
+      padding: 12px 20px;
+      font-size: 1em;
+      margin-left: 10px;
+      background: #4b2e1e;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #6c4028;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      h1 { font-size: 9vw; }
+      p, .domain { font-size: 5vw; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>COMING SOON</h1>
+  <div class="domain">sanjeevanihomoeo.in</div>
+  <div class="line"></div>
+  <p>Your Medical Experience At Your Fingertips</p>
+  <div class="caduceus">⚕️</div>
+
+  <div class="notify-box">
+    <input type="email" placeholder="Enter your email" />
+    <button onclick="alert('Thanks! You’ll be notified.')">Notify Me</button>
+  </div>
+
+  <div class="footer">
+    Powered by <span>Met Doc</span>
+  </div>
+
+</body>
+</html>
